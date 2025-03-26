@@ -2,13 +2,12 @@ port: 3000
 
 db:
   type: postgres
-  host: YOUR_DB_HOST
+  host: dpg-cvi50fjqf0us73b0u8pg-a.render.com
   port: 5432
-  user: YOUR_DB_USER
-  pass: YOUR_DB_PASSWORD
-  db: YOUR_DB_NAME
+  user: wikisj_colateral_user
+  pass: wikisj_colateral_user
+  db: wikisj_colateral
   ssl: true
 
 bindIP: 0.0.0.0
-
 logLevel: info
