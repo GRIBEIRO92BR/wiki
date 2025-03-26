@@ -6,7 +6,7 @@ WORKDIR /wiki
 # Install dependencies
 COPY . .
 
-RUN yarn install --production
+RUN yarn install
 
 # Build wiki
 RUN yarn build
